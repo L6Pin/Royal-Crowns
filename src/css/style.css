@@ -74,10 +74,12 @@
 }
 
 .nav .menu__bg {
-  opacity: .2;
-  width: 140%;
-  -webkit-transform: rotate(15deg);
-          transform: rotate(15deg);
-  margin-top: 8rem;
+  position: absolute;
+  bottom: 0%;
+  right: -40%;
+  opacity: .1;
+  width: 130%;
+  -webkit-transform: rotate(18deg);
+          transform: rotate(18deg);
 }
 /*# sourceMappingURL=style.css.map */

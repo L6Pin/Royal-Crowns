@@ -59,10 +59,13 @@
         background: $lightPurple;
 
         &__bg{
-            opacity: .2;
-            width: 140%;
-            transform: rotate(15deg);
-            margin-top: 8rem;
+            position: absolute;
+            bottom: 0%;
+            right: -40%;
+            opacity: .1;
+            width: 130%;
+            transform: rotate(18deg);
+            
         }
     }
    
