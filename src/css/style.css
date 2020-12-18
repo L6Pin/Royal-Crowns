@@ -1,4 +1,83 @@
-body {
-  background: red;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.25rem;
+  width: 100vw;
+}
+
+.nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  z-index: 3;
+}
+
+.nav .logo__img {
+  width: 15%;
+}
+
+.nav .logo__langRS {
+  font-family: 'Playfair Display SC', serif;
+  color: #FFD524;
+  font-size: 2.5rem;
+}
+
+.nav .logo__text {
+  font-family: 'Playfair Display SC', serif;
+  color: #FFD524;
+  padding-bottom: 6px;
+  padding-left: 6px;
+}
+
+.nav .menuBtn {
+  position: relative;
+  z-index: 3;
+  margin-top: .5rem;
+}
+
+.nav .menuBtn .menuLineBtn {
+  display: block;
+  background-color: #FFD524;
+  width: 1.5rem;
+  height: 3px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+}
+
+.nav .menu {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #55185D;
+}
+
+.nav .menu__bg {
+  opacity: .2;
+  width: 140%;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+  margin-top: 8rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,18 +1,28 @@
 import React, { Component } from 'react';
+import logo from '../img/logo.png';
 import { Link } from 'react-router-dom';
 
 const Nav = () => (
 
+   <div className="nav">
 
-   <>
-      <Link to='/teams'>
-         <h3>Teams</h3>
-      </Link>
-      <Link to='/form'>
-         <h3>Form</h3>
-      </Link>
+      <nav className="logo">
+      <img src={logo} className="logo__img" alt="Royal Crowns Logo"/>
+      {/* <p className="logo__langRS">RS</p> */}
+      <p className="logo__text">Royal <br/> Crowns</p>
+      </nav>
 
-   </>
+      <div className="menuBtn">
+         <span className="menuLineBtn menuLineBtn--1"></span>
+         <span className="menuLineBtn menuLineBtn--2"></span>
+         <span className="menuLineBtn menuLineBtn--3"></span>
+      </div>
+
+      <div className="menu">
+         <img src={logo} alt="Menu Background" className="menu__bg"/>
+      </div>
+
+   </div>
 
 );
 

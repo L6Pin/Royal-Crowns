@@ -4,7 +4,7 @@ import React from 'react';
 const index = () => {
     return (
         <div className="Index">
-            <p>index</p>
+            {/* <p>index</p> */}
         </div>
     );
 }
