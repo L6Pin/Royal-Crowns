@@ -95,8 +95,30 @@ a {
 }
 
 .index__bg {
-  -webkit-transform: translateX(-57%);
-          transform: translateX(-57%);
+  -webkit-animation: 1.7s bgImagePageLoad forwards;
+          animation: 1.7s bgImagePageLoad forwards;
+}
+
+@-webkit-keyframes bgImagePageLoad {
+  from {
+    -webkit-transform: translateX(-63%) scale(1);
+            transform: translateX(-63%) scale(1);
+  }
+  to {
+    -webkit-transform: translateX(-58%) scale(1.07);
+            transform: translateX(-58%) scale(1.07);
+  }
+}
+
+@keyframes bgImagePageLoad {
+  from {
+    -webkit-transform: translateX(-63%) scale(1);
+            transform: translateX(-63%) scale(1);
+  }
+  to {
+    -webkit-transform: translateX(-58%) scale(1.07);
+            transform: translateX(-58%) scale(1.07);
+  }
 }
 
 .index .content {
@@ -120,12 +142,18 @@ a {
   left: 0;
 }
 
-.index .content h1 {
+.index .content__title {
+  -webkit-animation: 2.5s contentPageLoad forwards;
+          animation: 2.5s contentPageLoad forwards;
+  opacity: 0;
+}
+
+.index .content__title h1 {
   font-family: 'Playfair Display SC', serif;
   font-size: 2rem;
 }
 
-.index .content h2 {
+.index .content__title h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   letter-spacing: 0.085rem;
@@ -139,10 +167,71 @@ a {
 .index .content__buttons .button {
   padding: 1rem 1rem;
   margin-bottom: 2rem;
-  background: yellow;
+  -webkit-animation: 1.5s buttonOnLoad forwards;
+          animation: 1.5s buttonOnLoad forwards;
+  opacity: 0;
+  -webkit-transform: translateY(70%);
+          transform: translateY(70%);
+}
+
+.index .content__buttons .button__border {
+  padding: 1rem;
 }
 
 .index .content__buttons .button--join {
   font-weight: 700;
+  background: #FFD524;
+}
+
+.index .content__buttons .button--teams {
+  background: none;
+  border: 2px solid #FFD524;
+  color: #FFD524;
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+@-webkit-keyframes contentPageLoad {
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes contentPageLoad {
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes buttonOnLoad {
+  20% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+            transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes buttonOnLoad {
+  20% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+            transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
 }
 /*# sourceMappingURL=style.css.map */
