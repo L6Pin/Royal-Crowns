@@ -8,7 +8,8 @@ const Nav = () => (
 
       <nav className="logo">
       <img src={logo} className="logo__img" alt="Royal Crowns Logo"/>
-      {/* <p className="logo__langRS">RS</p> */}
+      {/* <p className="logo__lang">RS</p> */}
+      {/* <p className="logo__lang">EN</p> */}
       <p className="logo__text">Royal <br/> Crowns</p>
       </nav>
 
