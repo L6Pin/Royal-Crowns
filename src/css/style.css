@@ -35,21 +35,24 @@ a {
   z-index: 3;
 }
 
-.nav .logo__img {
-  width: 15%;
+.nav .logo .hide {
+  display: none;
 }
 
-.nav .logo__langRS {
-  font-family: 'Playfair Display SC', serif;
-  color: #FFD524;
-  font-size: 2.5rem;
+.nav .logo__img {
+  width: 12%;
 }
 
 .nav .logo__text {
   font-family: 'Playfair Display SC', serif;
   color: #FFD524;
-  padding-bottom: 6px;
   padding-left: 6px;
+}
+
+.nav .logo__lang {
+  font-family: 'Playfair Display SC', serif;
+  color: #FFD524;
+  font-size: 2.5rem;
 }
 
 .nav .menuBtn {
@@ -65,16 +68,60 @@ a {
   height: 3px;
   margin-bottom: 4px;
   border-radius: 10px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-transform-origin: 2px 1px;
+          transform-origin: 2px 1px;
+}
+
+.nav .menuBtn .menuLineBtn--1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.nav .menuBtn .menuLineBtn--2 {
+  opacity: 0;
+}
+
+.nav .menuBtn .menuLineBtn--3 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .nav .menu {
   position: absolute;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #55185D;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  padding: 20px;
   top: 0;
   left: -100%;
   width: 100vw;
   height: 100vh;
-  background: #55185D;
+  z-index: 2;
+}
+
+.nav .menu__links {
+  color: #FFD524;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+.nav .menu__links p {
+  margin-bottom: .5rem;
+}
+
+.nav .menu__open {
+  left: 0%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .nav .menu__bg {

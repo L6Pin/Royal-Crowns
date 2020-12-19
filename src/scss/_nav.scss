@@ -12,25 +12,29 @@
         align-items: flex-end;
         position: relative;
         z-index: 3;
+
+      & .hide{
+          display: none;
+      }
         
-
         &__img{
-            width: 15%;
-        }
-
-        &__langRS{
-            font-family: 'Playfair Display SC', serif;
-            color: $lightYellow;
-            font-size: 2.5rem;
+            width: 12%;
         }
 
         &__text{
             font-family: 'Playfair Display SC', serif;
             color: $lightYellow;
-            padding-bottom: 6px;
             padding-left: 6px;
-
         }
+
+        &__lang{
+            font-family: 'Playfair Display SC', serif;
+            color: $lightYellow;
+            font-size: 2.5rem;
+        }
+
+        
+
     }
 
     & .menuBtn{
@@ -46,18 +50,53 @@
             height: 3px;
             margin-bottom: 4px;
             border-radius: 10px; 
+            transition: .3s ease-in-out;
+            transform-origin: 2px 1px;
+            
+
+            &--1{
+                transform: rotate(45deg);
+            }
+
+            &--2{
+                opacity: 0;
+            }
+
+            &--3{
+                transform: rotate(-45deg);
+            }
         }
     }
 
     & .menu {
         position: absolute;
         overflow: hidden;
+        display: flex;
+        align-items: center;
+        background: $lightPurple;
+        transition: .5s ease-in-out;
+        padding: 20px;
         top: 0;
         left: -100%;
         width: 100vw;
         height: 100vh;
-        background: $lightPurple;
+        z-index: 2;
 
+        &__links{
+            color: $lightYellow;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2rem;
+
+            & p {
+                margin-bottom: .5rem;
+            }
+        }
+
+        &__open{
+            left: 0%;
+            transition: .5s ease-in-out;
+        }
+        
         &__bg{
             position: absolute;
             bottom: 0%;
