@@ -7,6 +7,7 @@
 
 a {
   text-decoration: none;
+  position: relative;
 }
 
 .nav {
@@ -108,13 +109,10 @@ a {
   z-index: 2;
 }
 
-.nav .menu__links {
+.nav .menu a {
   color: #FFD524;
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
-}
-
-.nav .menu__links p {
   margin-bottom: .5rem;
 }
 

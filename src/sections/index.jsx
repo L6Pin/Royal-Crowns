@@ -15,7 +15,7 @@ const index = () => {
                     <h2>royal club of american football</h2>
                 </div>
                 <div className="content__buttons">
-                    <Link ><p className="button button--join">JOIN THE TEAM</p></Link>
+                    <Link to="/form"><p className="button button--join">JOIN THE TEAM</p></Link>
                     <Link ><p className="button button--teams">TEAM INFO</p></Link>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React, { Component, useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../img/logo.png';
 
 function Nav() {
@@ -6,7 +7,7 @@ function Nav() {
    const [isMenuopen, setIsMenuOpen] = useState(false);
 
    
-   function openMenu(){
+   function toggleMenu(){
       setIsMenuOpen(!isMenuopen);
       console.log(isMenuopen);
    }
@@ -21,7 +22,7 @@ function Nav() {
             <p className={isMenuopen ? "logo__text hide" : "logo__text"}>Royal <br /> Crowns</p>
          </nav>
 
-         <div className="menuBtn" onClick={openMenu}>
+         <div className="menuBtn" onClick={toggleMenu}>
             <span className={isMenuopen ? "menuLineBtn menuLineBtn--1" : "menuLineBtn"}></span>
             <span className={isMenuopen ? "menuLineBtn menuLineBtn--2" : "menuLineBtn"}></span>
             <span className={isMenuopen ? "menuLineBtn menuLineBtn--3" : "menuLineBtn"}></span>
@@ -30,12 +31,12 @@ function Nav() {
          <div className={isMenuopen ? "menu menu__open" : "menu"}>
             <img src={logo} alt="Menu Background" className="menu__bg" />
             <div className="menu__links">
-               <p>JOIN THE CLUB</p>
-               <p>AMERICAN FOOTBALL</p>
-               <p>ATHLETICS</p>
-               <p>CLUB #3</p>
-               <p>CLUB #4</p>
-               <p>FIND A MEMBER</p>
+               <Link to="/form" onClick={toggleMenu}><p>JOIN THE CLUB</p></Link>
+               <Link  onClick={toggleMenu}><p>AMERICAN FOOTBALL</p></Link>
+               <Link  onClick={toggleMenu}> <p>ATHLETICS</p></Link>
+               <Link  onClick={toggleMenu}><p>CLUB #3</p></Link>
+               <Link  onClick={toggleMenu}><p>CLUB #4</p></Link>
+               <Link  onClick={toggleMenu}><p>FIND A MEMBER</p></Link>
             </div>
          </div>
 

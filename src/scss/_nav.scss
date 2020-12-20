@@ -81,16 +81,15 @@
         width: 100vw;
         height: 100vh;
         z-index: 2;
+       
 
-        &__links{
+        & a {
             color: $lightYellow;
             font-family: 'Poppins', sans-serif;
             font-size: 2rem;
-
-            & p {
-                margin-bottom: .5rem;
-            }
+            margin-bottom: .5rem;
         }
+
 
         &__open{
             left: 0%;
