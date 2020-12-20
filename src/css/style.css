@@ -279,4 +279,71 @@ a {
             transform: translateY(0%);
   }
 }
+
+.form {
+  background: -webkit-gradient(linear, left top, left bottom, from(#55185D), to(#290849));
+  background: linear-gradient(180deg, #55185D 0%, #290849 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFD524;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  padding: 20px;
+}
+
+.form__logo {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+}
+
+.form__title {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.form__subtitle {
+  font-size: 1rem;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.form__fieldTitle {
+  display: block;
+  text-align: left;
+  margin-bottom: .5rem;
+  font-size: .5rem;
+}
+
+.form__field {
+  display: block;
+  border: none;
+  background: none;
+  color: #FFD524;
+  font-weight: bold;
+  border-bottom: 2px solid #FFD524;
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form__field:focus {
+  outline: none;
+}
+
+.form__submit {
+  text-align: left;
+  background: #FFD524;
+  color: #55185D;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+  padding: .5rem 1.5rem;
+}
 /*# sourceMappingURL=style.css.map */
