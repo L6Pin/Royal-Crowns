@@ -1,0 +1,36 @@
+.findMembers{
+
+    height: 100vh;
+    
+
+    & .search{
+        height: 30%;
+        background-color: $lightPurple;
+        padding: 20px;
+        display: flex;
+        align-items: flex-end;
+        
+        &__field{
+            display: block;
+            border: none;
+            background: none;
+            color: $lightYellow;
+            font-weight: normal;
+            border-bottom: 2px solid $lightYellow;
+            font-size: 2rem;
+            width: 100%;
+
+            &:focus{
+                outline: none;
+            }
+            
+        }
+    }
+
+    & .results{
+        height: 70%;
+        background-color: $darkPurple;
+        padding: 20px;
+    }
+
+}

@@ -24,6 +24,7 @@ const form = () => {
                 <input type="text" className="form__field" name="" id=""/>
 
                 <p className="form__submit">SUBMIT</p>
+                
 
            </div>
 

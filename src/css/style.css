@@ -346,4 +346,41 @@ a {
   font-size: 1rem;
   padding: .5rem 1.5rem;
 }
+
+.findMembers {
+  height: 100vh;
+}
+
+.findMembers .search {
+  height: 30%;
+  background-color: #55185D;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.findMembers .search__field {
+  display: block;
+  border: none;
+  background: none;
+  color: #FFD524;
+  font-weight: normal;
+  border-bottom: 2px solid #FFD524;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.findMembers .search__field:focus {
+  outline: none;
+}
+
+.findMembers .results {
+  height: 70%;
+  background-color: #290849;
+  padding: 20px;
+}
 /*# sourceMappingURL=style.css.map */

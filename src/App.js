@@ -11,14 +11,16 @@ import Teams from './sections/teams';
 
 function App() {
   return (
+    
     <Router>
       
         <Nav />
+        
         <Switch>
         <Route path='/' exact component={Index} />
         <Route path='/form' component={Form} />
         <Route path='/teams' component={Teams} />
-        <Route path='/find-member' component={FindMember} />
+        <Route path='/findMember' component={FindMember} />
         </Switch>
     </Router>
   );

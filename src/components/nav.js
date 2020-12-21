@@ -32,11 +32,11 @@ function Nav() {
             <img src={logo} alt="Menu Background" className="menu__bg" />
             <div className="menu__links">
                <Link to="/form" onClick={toggleMenu}><p>JOIN THE CLUB</p></Link>
-               <Link  onClick={toggleMenu}><p>AMERICAN FOOTBALL</p></Link>
+               <Link   onClick={toggleMenu}><p>AMERICAN FOOTBALL</p></Link>
                <Link  onClick={toggleMenu}> <p>ATHLETICS</p></Link>
                <Link  onClick={toggleMenu}><p>CLUB #3</p></Link>
                <Link  onClick={toggleMenu}><p>CLUB #4</p></Link>
-               <Link  onClick={toggleMenu}><p>FIND A MEMBER</p></Link>
+               <Link to="/findMember" onClick={toggleMenu}><p>FIND A MEMBER</p></Link>
             </div>
          </div>
 

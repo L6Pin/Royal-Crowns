@@ -1,0 +1,48 @@
+
+    [
+      {
+        "name": "Aleksandar Dimitrijeic",
+        "img":"https://avatarfiles.alphacoders.com/922/92262.png",
+        "ig": "@aleksdimi_83",
+        "team": "American Football",
+        "age": 32,
+        "city": "Kraljevo",
+        "game": "Fifa 18"
+      },
+      {
+        "name": "Aleksandra Ivanov",
+        "img":"/img/members/member2.jpg",
+        "ig": "@aleks_21",
+        "team": "American Football",
+        "age": 32,
+        "city": "Cacak",
+        "game": "Sims 4"
+      },
+      {
+        "name": "Aleksandra Ivanov",
+        "img":"./img/members/member3.jpg",
+        "ig": "@aleks_21",
+        "team": "American Football",
+        "age": 32,
+        "city": "Cacak",
+        "game": "Sims 4"
+      },
+      {
+        "name": "Darko Bacic",
+        "img":"./img/members/member4.jpg",
+        "ig": "@db_08",
+        "team": "Athletics",
+        "age": 14,
+        "city": "Beograd",
+        "game": "CS:GO"
+      },
+      {
+        "name": "Teodosije Simic",
+        "img":"./img/members/member5.jpg",
+        "ig": "@TeoSim",
+        "team": "Athletics",
+        "age": 29,
+        "city": "Valjevo",
+        "game": "Farming simulator"
+      }
+    ]
