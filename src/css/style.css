@@ -382,10 +382,8 @@ a {
 }
 
 .findMembers .results {
-  height: 70%;
   background-color: #290849;
   padding: 20px;
-  overflow-y: auto;
 }
 
 .findMembers .results .member {
