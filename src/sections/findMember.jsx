@@ -19,7 +19,7 @@ function FindMembers(){
                 {
                     Members.map(member => {
 
-                        if (member.name.includes(inputField)){
+                        if (member.name.toLowerCase().includes(inputField.toLowerCase())){
                            return (
                                 <div className="member">
                                 <div className="member__imageContainer">
@@ -38,7 +38,6 @@ function FindMembers(){
                                 </div> 
                             )
                         }
-
                     })
 
                    
