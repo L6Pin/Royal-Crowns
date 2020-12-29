@@ -3,6 +3,7 @@
     height: 100vh;
     background-color: $darkPurple;
 
+
     & .search{
         height: 30%;
         background-color: $lightPurple;
@@ -29,9 +30,10 @@
     }
 
     & .results{
-        
+        height: 70%;
         background-color: $darkPurple;
         padding: 20px;
+        overflow-y: auto;
 
      & .member{
 
