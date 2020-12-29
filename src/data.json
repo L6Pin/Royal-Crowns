@@ -2,7 +2,7 @@
     [
       {
         "name": "Aleksandar Dimitrijeic",
-        "img":"https://avatarfiles.alphacoders.com/922/92262.png",
+        "img":"https://i.ibb.co/WcRsLjV/member1.jpg",
         "ig": "@aleksdimi_83",
         "team": "American Football",
         "age": 32,
@@ -11,7 +11,7 @@
       },
       {
         "name": "Aleksandra Ivanov",
-        "img":"/img/members/member2.jpg",
+        "img":"https://i.ibb.co/c6dCf0S/member2.jpg",
         "ig": "@aleks_21",
         "team": "American Football",
         "age": 32,
@@ -20,7 +20,7 @@
       },
       {
         "name": "Aleksandra Ivanov",
-        "img":"./img/members/member3.jpg",
+        "img":"https://i.ibb.co/9wr24Dy/member3.jpg",
         "ig": "@aleks_21",
         "team": "American Football",
         "age": 32,
@@ -29,7 +29,7 @@
       },
       {
         "name": "Darko Bacic",
-        "img":"./img/members/member4.jpg",
+        "img":"https://i.ibb.co/kmprmQC/member4.jpg",
         "ig": "@db_08",
         "team": "Athletics",
         "age": 14,
@@ -38,7 +38,7 @@
       },
       {
         "name": "Teodosije Simic",
-        "img":"./img/members/member5.jpg",
+        "img":"https://i.ibb.co/8zzjs0f/member5.jpg",
         "ig": "@TeoSim",
         "team": "Athletics",
         "age": 29,

@@ -349,6 +349,7 @@ a {
 
 .findMembers {
   height: 100vh;
+  background-color: #290849;
 }
 
 .findMembers .search {
@@ -358,6 +359,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -379,8 +382,53 @@ a {
 }
 
 .findMembers .results {
-  height: 70%;
   background-color: #290849;
   padding: 20px;
+}
+
+.findMembers .results .member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #FFD524;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.findMembers .results .member__imageContainer {
+  width: 35%;
+}
+
+.findMembers .results .member__imageContainer img {
+  width: 100%;
+  border: 2px solid #290849;
+  border-radius: 5px;
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+
+.findMembers .results .member__profileContainer {
+  width: 60%;
+}
+
+.findMembers .results .member__profileContainer span {
+  font-size: .6rem;
+  color: #55185D;
+}
+
+.findMembers .results .member__profileContainer p {
+  font-style: normal;
+  font-weight: normal;
+  color: #290849;
+  font-size: 1rem;
+  margin-top: -5px;
 }
 /*# sourceMappingURL=style.css.map */

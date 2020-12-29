@@ -1,27 +1,58 @@
-import React from 'react';
+import React, { Component, useState } from 'react';
 import Members from '../data.json';
-import A from '../img/members/member1.jpg'
 
-function findMembers(){
+
+function FindMembers(){
+
+    const [inputField, SetInputField] = useState("");
+
+    function updateInputFieldValue(e){
+        SetInputField(e.target.value);
+    }
+
     return(
         <div className="findMembers">
             <div className="search">
-                <input className="search__field" placeholder="Enter member name" type="text" name="" id="searchField"/>
+                <input className="search__field" placeholder="Enter member name" type="text" name="" id="searchField" onChange={updateInputFieldValue}/>
             </div>
             <div className="results">
-                {/* <img src={A} alt=""/> */}
                 {
-                    Members.map(member => (
-                        <>
-                            <p>{member.name}</p>
-                      
-                            <img src={member.img} alt={member.img}/>
-                        </>
-                    ))
+                    Members.map(member => {
+
+                        if (member.name.includes(inputField)){
+                           return (
+                                <div className="member">
+                                <div className="member__imageContainer">
+                                    <img src={member.img} alt="Member Profile Image"/>
+                                </div>
+                                <div className="member__profileContainer">
+                                    <span>Name:</span>
+                                    <p>{member.name}</p>
+                                
+                                    <span>Team:</span>
+                                    <p>{member.team}</p>
+                                
+                                    <span>Age:</span>
+                                    <p>{member.age}</p>
+                                </div>
+                                </div> 
+                            )
+                        }
+
+                    })
+
+                   
                 }
+                {
+                    console.log(inputField)
+                }
+            
+              
             </div>
         </div>
     )
 }
 
-export default findMembers;
+export default FindMembers;
+
+
