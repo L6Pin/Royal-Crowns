@@ -6,6 +6,7 @@ import Index from './sections/index';
 import FindMember from './sections/findMember';
 import Form from './sections/form';
 import Teams from './sections/teams';
+import Test from './sections/test';
 
 
 
@@ -15,13 +16,15 @@ function App() {
     <Router>
       
         <Nav />
-        
+      
         <Switch>
         <Route path='/' exact component={Index} />
         <Route path='/form' component={Form} />
         <Route path='/teams' component={Teams} />
-        <Route path='/findMember' component={FindMember} />
+        <Route path='/findMember' exact component={FindMember} />
+        <Route path='/findMember/:id' component={Test} />
         </Switch>
+
     </Router>
   );
 }

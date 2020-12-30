@@ -8,7 +8,7 @@ function Nav() {
 
    
    function toggleMenu(){
-      setIsMenuOpen(!isMenuopen);
+      setIsMenuOpen(!isMenuopen);   
       console.log(isMenuopen);
    }
 
