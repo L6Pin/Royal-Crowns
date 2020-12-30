@@ -386,7 +386,7 @@ a {
 }
 
 .findMembers .results {
-  height: 100%;
+  height: 75%;
   background-color: #290849;
   padding: 20px;
   overflow-y: auto;
@@ -436,5 +436,95 @@ a {
   color: #290849;
   font-size: 1rem;
   margin-top: -5px;
+}
+
+.FoundMember {
+  color: red;
+  background-color: yellow;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainMemberInfo {
+  background-color: #55185D;
+  height: 55%;
+}
+
+.mainMemberInfo .frame {
+  background-color: #290849;
+  border: 5px solid #FFD524;
+  position: relative;
+  border-top: none;
+  height: 60%;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+
+.mainMemberInfo .frame img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 40%);
+          transform: translate(-50%, 40%);
+  width: 50%;
+  border-radius: 50%;
+  border: 5px solid #FFD524;
+}
+
+.mainMemberInfo .nameANDig {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #FFD524;
+  padding: 0 20px;
+  margin-top: 19%;
+}
+
+.mainMemberInfo .nameANDig p:first-of-type {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.mainMemberInfo .nameANDig p:last-of-type {
+  margin-top: -2%;
+}
+
+.sideMemberInfo {
+  background-color: #55185D;
+  font-family: 'Poppins', sans-serif;
+  color: #FFD524;
+  padding: 20px;
+  height: 45%;
+}
+
+.sideMemberInfo .row {
+  background: #290849;
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sideMemberInfo .row .rowSection {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

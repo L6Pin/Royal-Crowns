@@ -22,7 +22,7 @@ function FindMembers() {
 
                         if (member.name.toLowerCase().includes(inputField.toLowerCase())) {
                             return (
-                                <Link to={ `/findMember/${member.id}` }>
+                                <Link to={ `/findMember/${member.id}`}>
                                     <div className="member">
                                         <div className="member__imageContainer">
                                             <img src={member.img} alt="Member Profile Image" />

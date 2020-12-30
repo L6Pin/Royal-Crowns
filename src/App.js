@@ -6,7 +6,7 @@ import Index from './sections/index';
 import FindMember from './sections/findMember';
 import Form from './sections/form';
 import Teams from './sections/teams';
-import Test from './sections/test';
+import FoundMember from './sections/foundMember';
 
 
 
@@ -22,7 +22,7 @@ function App() {
         <Route path='/form' component={Form} />
         <Route path='/teams' component={Teams} />
         <Route path='/findMember' exact component={FindMember} />
-        <Route path='/findMember/:id' component={Test} />
+        <Route path='/findMember/:id' component={FoundMember} />
         </Switch>
 
     </Router>

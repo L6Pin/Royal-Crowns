@@ -1,0 +1,72 @@
+.FoundMember{
+    color: red;
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainMemberInfo{
+    background-color: $lightPurple;
+    height: 55%;
+
+    & .frame{
+        background-color: $darkPurple;
+        border: 5px solid $lightYellow;
+        position: relative;
+        border-top: none;
+        height: 60%;
+        border-bottom-right-radius: 40%;
+        border-bottom-left-radius: 40%;
+
+        & img {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 40%);
+            width: 50%;
+            border-radius: 50%;
+            border: 5px solid $lightYellow;
+        }
+    }
+
+    & .nameANDig{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: $lightYellow;
+        padding: 0 20px;
+        margin-top: 19%;
+
+        & p:first-of-type{
+            font-weight: bold;
+            font-size: 1.7rem;
+        }
+
+        & p:last-of-type{
+            margin-top: -2%;
+        }
+    }
+}
+
+.sideMemberInfo{
+    background-color: $lightPurple;
+    font-family: 'Poppins', sans-serif;
+    color: $lightYellow;
+    padding: 20px;
+    height: 45%;
+
+    .row{
+        background: $darkPurple;
+        width: 100%;
+        height: 50%;
+        display: flex;
+
+        & .rowSection{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
