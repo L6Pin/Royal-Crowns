@@ -5,12 +5,14 @@
 
 
     & .search{
-        height: 30%;
-        background-color: $lightPurple;
-        padding: 20px;
         display: flex;
         justify-content: space-around;
         align-items: flex-end;
+        position: relative;
+        background-color: $lightPurple;
+        height: 13rem;
+        padding: 20px;
+
         
         &__field{
             display: block;

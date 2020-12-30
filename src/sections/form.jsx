@@ -1,7 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../img/logo.png';
 
-const form = () => {
+function Form(){
+
+    // const [isInputClicked, SetIsInputClicked] = useState(false);
+
+    // function updateIsInputClicked(e){
+
+    //    if (e.target.value.length > 0){
+    //        SetIsInputClicked(true)
+    //    }
+    //    else{
+    //        SetIsInputClicked(false)
+    //    }
+
+
+    // }
+
+
     return (
         <div className="form">
            
@@ -32,4 +48,4 @@ const form = () => {
     );
 }
 
-export default form;
+export default Form;

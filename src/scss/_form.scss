@@ -2,9 +2,10 @@
     background: linear-gradient(180deg, #55185D 0%, #290849 100%);
     display: flex;
     align-items: center;
+    justify-content: center;
     color: $lightYellow;
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
+    height: 51rem;
     padding: 20px;
 
     &__logo{
@@ -12,6 +13,7 @@
         display: block;
         margin: 0 auto;
     }
+
 
     &__title{
         font-family: 'Playfair Display SC', serif;
@@ -60,3 +62,4 @@
         
     }
 }
+

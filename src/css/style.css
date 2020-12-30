@@ -289,9 +289,12 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #FFD524;
   font-family: 'Poppins', sans-serif;
-  height: 100vh;
+  height: 51rem;
   padding: 20px;
 }
 
@@ -353,9 +356,6 @@ a {
 }
 
 .findMembers .search {
-  height: 30%;
-  background-color: #55185D;
-  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -364,6 +364,10 @@ a {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  position: relative;
+  background-color: #55185D;
+  height: 13rem;
+  padding: 20px;
 }
 
 .findMembers .search__field {
