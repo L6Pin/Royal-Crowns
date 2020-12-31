@@ -667,9 +667,11 @@ a {
 
 .sClub .clubInfoContainer img {
   width: 100%;
+  border: 1px solid #FFD524;
+  margin-bottom: 20px;
 }
 
-.sClub .clubInfoContainer h3, .sClub .clubInfoContainer p, .sClub .clubInfoContainer img {
+.sClub .clubInfoContainer h3, .sClub .clubInfoContainer p {
   padding-bottom: 20px;
 }
 
@@ -709,6 +711,7 @@ a {
   border-radius: 5px;
   -webkit-transform: translateY(8px);
           transform: translateY(8px);
+  margin-bottom: 0px;
 }
 
 .sClub .member__profileContainer {

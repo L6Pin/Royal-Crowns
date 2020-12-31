@@ -58,9 +58,11 @@
 
         & img {
             width: 100%;
+            border: 1px solid $lightYellow;
+            margin-bottom: 20px;
         }
 
-        & h3, & p, & img{
+        & h3, & p {
             padding-bottom: 20px;
         }
 
@@ -96,6 +98,7 @@
                 border: 2px solid $darkPurple;
                 border-radius: 5px;
                 transform: translateY(8px);
+                margin-bottom: 0px;
             }
         }
 
