@@ -65,4 +65,55 @@
         }
     }
 
+    & .member{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: $lightYellow;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        margin-bottom: 2rem;
+        padding: 1rem;
+
+        & h3, & p, & img{
+            padding-bottom: 0;
+        }
+
+        &__imageContainer {
+            
+            width: 35%;
+            
+            & img{
+                width: 100%;
+                border: 2px solid $darkPurple;
+                border-radius: 5px;
+                transform: translateY(8px);
+            }
+        }
+
+        &__profileContainer{
+
+            width: 60%;
+
+            & span{
+                font-size: .6rem;
+                color: $lightPurple;
+                
+            }
+
+            & p {
+                font-style: normal;
+                font-weight: normal;
+                color: $darkPurple;
+                font-size: 1rem;
+                margin-top: -5px;
+            }
+        }
+
+     
+       
+    }
+    
+
 }
