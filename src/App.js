@@ -1,5 +1,5 @@
 import './css/style.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Nav from './components/nav.js';
 import Index from './sections/index';
