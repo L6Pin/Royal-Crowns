@@ -21,6 +21,10 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   padding: 1.25rem;
   width: 100vw;
   z-index: 2;
@@ -577,7 +581,6 @@ a {
 .clubs .clubPoster {
   background-size: cover;
   position: relative;
-  background-color: red;
   height: 360px;
   width: 100%;
   background-position: 40% 0;
