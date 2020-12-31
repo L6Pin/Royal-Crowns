@@ -29,6 +29,7 @@ export default function SingleClub(match) {
                             <p>{team.meetTheTeam1}</p>
                             <img src={team.teamPicture} alt="" />
                             <p>{team.meetTheTeam2}</p>
+                            <p>Latest Members</p>
 
                             {
                             

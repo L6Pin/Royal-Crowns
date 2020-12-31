@@ -673,6 +673,11 @@ a {
   padding-bottom: 20px;
 }
 
+.sClub .clubInfoContainer p:nth-of-type(3) {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 .sClub .member {
   display: -webkit-box;
   display: -ms-flexbox;

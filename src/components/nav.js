@@ -6,9 +6,9 @@ function Nav() {
 
    const [isMenuopen, setIsMenuOpen] = useState(false);
 
-   
-   function toggleMenu(){
-      setIsMenuOpen(!isMenuopen);   
+
+   function toggleMenu() {
+      setIsMenuOpen(!isMenuopen);
       console.log(isMenuopen);
    }
 
@@ -16,11 +16,13 @@ function Nav() {
 
       <div className="nav">
 
-         <nav className="logo">
-            <img src={logo} className={isMenuopen ? "logo__img hide" : "logo__img"} alt="Royal Crowns Logo" />
-            <p className={isMenuopen ? "logo__lang" : "logo__lang hide"}>RS</p>
-            <p className={isMenuopen ? "logo__text hide" : "logo__text"}>Royal <br /> Crowns</p>
-         </nav>
+         <Link to='/clubs'>
+            <nav className="logo">
+               <img src={logo} className={isMenuopen ? "logo__img hide" : "logo__img"} alt="Royal Crowns Logo" />
+               <Link to='/findMember'><p className={isMenuopen ? "logo__lang" : "logo__lang hide"} onClick={toggleMenu}>RS</p></Link>
+               <p className={isMenuopen ? "logo__text hide" : "logo__text"}>Royal <br /> Crowns</p>
+            </nav>
+         </Link>
 
          <div className="menuBtn" onClick={toggleMenu}>
             <span className={isMenuopen ? "menuLineBtn menuLineBtn--1" : "menuLineBtn"}></span>
@@ -32,10 +34,10 @@ function Nav() {
             <img src={logo} alt="Menu Background" className="menu__bg" />
             <div className="menu__links">
                <Link to="/form" onClick={toggleMenu}><p>JOIN THE CLUB</p></Link>
-               <Link   onClick={toggleMenu}><p>AMERICAN FOOTBALL</p></Link>
-               <Link  onClick={toggleMenu}> <p>ATHLETICS</p></Link>
-               <Link  onClick={toggleMenu}><p>CLUB #3</p></Link>
-               <Link  onClick={toggleMenu}><p>CLUB #4</p></Link>
+               <Link onClick={toggleMenu}><p>AMERICAN FOOTBALL</p></Link>
+               <Link onClick={toggleMenu}> <p>ATHLETICS</p></Link>
+               <Link onClick={toggleMenu}><p>CLUB #3</p></Link>
+               <Link onClick={toggleMenu}><p>CLUB #4</p></Link>
                <Link to="/findMember" onClick={toggleMenu}><p>FIND A MEMBER</p></Link>
             </div>
          </div>
