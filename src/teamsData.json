@@ -1,0 +1,38 @@
+[
+    {   "id":"American-Football",
+        "teamCover": "https://i.ibb.co/vz4p58F/landing-af.jpg",
+        "team": "AMERICAN FOOTBALL",
+        "teamSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+        "meetTheTeam1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "teamPicture": "https://i.ibb.co/sV25tR1/2319559-dsc-2009-ff-2.png",
+        "meetTheTeam2": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+    },
+    {
+        "id":"Athletics",
+        "teamCover": "https://i.ibb.co/2nTQCrZ/Joshua-Cheptegei-Ath-Wrap-200814-G-1050x580.jpg",
+        "team": "ATHLETICS",
+        "teamSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+        "meetTheTeam1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "teamPicture": "https://i.ibb.co/sV25tR1/2319559-dsc-2009-ff-2.png",
+        "meetTheTeam2": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+    },
+    {
+        "id":"Soccer",
+        "teamCover": "https://i.ibb.co/DpD5KPq/shutterstock-1051589441.jpg",
+        "team": "SOCCER",
+        "teamSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+        "meetTheTeam1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "teamPicture": "https://i.ibb.co/sV25tR1/2319559-dsc-2009-ff-2.png",
+        "meetTheTeam2": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+    },
+    {
+        "id":"Baseball",
+        "teamCover": "https://i.ibb.co/M5MBgrQ/rs-600x600-200624045853-600-Yankee-MLB-Games-ch-062420.jpg",
+        "team": "BASEBALL",
+        "teamSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+        "meetTheTeam1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "teamPicture": "https://i.ibb.co/sV25tR1/2319559-dsc-2009-ff-2.png",
+        "meetTheTeam2": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+    }
+
+]
