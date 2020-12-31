@@ -5,13 +5,14 @@
     justify-content: space-between;
     padding:  1.25rem;
     width: 100vw;
+    z-index: 2;
     
 
     & .logo{
         display: flex;
         align-items: flex-end;
         position: relative;
-        z-index: 3;
+        z-index: 4;
 
       & .hide{
           display: none;
@@ -40,7 +41,7 @@
     & .menuBtn{
 
         position: relative;
-        z-index: 3;
+        z-index: 4;
         margin-top: .5rem;
 
         & .menuLineBtn{
@@ -80,7 +81,7 @@
         left: -100%;
         width: 100vw;
         height: 100vh;
-        z-index: 2;
+        z-index: 3;
        
 
         & a { 

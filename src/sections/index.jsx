@@ -16,7 +16,7 @@ const index = () => {
                 </div>
                 <div className="content__buttons">
                     <Link to="/form"><p className="button button--join">JOIN THE TEAM</p></Link>
-                    <Link ><p className="button button--teams">TEAM INFO</p></Link>
+                    <Link ><p className="button button--teams">ALL CLUBS</p></Link>
                 </div>
             </div>
 

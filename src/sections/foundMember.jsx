@@ -15,7 +15,7 @@ export default function FoundMember(match) {
             {
                 Members.map(member => {
 
-                    if (member.id == match.match.params.id) {
+                    if (member.id === match.match.params.id) {
                         return (
                             <>
                                 <div className="mainMemberInfo">

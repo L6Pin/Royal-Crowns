@@ -1,0 +1,74 @@
+.clubs{
+
+    background: linear-gradient(180deg, #55185D 0%, #290849 100%);
+
+    & .title, & .subtitle{
+        padding: 0 20px;
+    }
+
+    & .title{
+        font-family: 'Playfair Display SC', serif;
+        color: $lightYellow;
+        padding-top: 30%;
+        font-size: 1.81rem;
+        padding-bottom: 20px;
+    }
+
+    & .subtitle{
+        font-family: 'Poppins', sans-serif;
+        color: $lightYellow;
+        font-weight: 300;
+        line-height: 24px;
+        padding-bottom: 40px;
+    }
+
+    & .af{
+        background: url("../img/clubs_af.jpg");
+    }
+
+    & .athletics{
+        background: url("../img/clubs_athletics.jpg");
+    }
+
+    & .soccer{
+        background: url("../img/clubs_soccer.jpg");
+    }
+
+    & .baseball{
+        background: url("../img/clubs_baseball.jpg");
+    }
+
+    & .clubPoster{
+        background-size: cover;
+        position: relative;
+        background-color: red;
+        height: 360px;
+        width: 100%;
+        background-position: 40% 0;
+
+        & p{
+            position: absolute;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            color: $lightYellow;
+            bottom: 2%;
+            left: 2%;
+            font-size: 2rem;
+            line-height: 48px;
+            width: 50%;
+            z-index: 1;
+        }
+
+        & .gradient{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(0deg, #55185D -11.43%, rgba(0, 0, 0, 0) 49.86%);
+            z-index: 0;
+        }
+    }
+
+  
+   
+}

@@ -67,6 +67,10 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
+            & img{
+                padding-bottom: .5rem;
+            }
         }
     }
 }

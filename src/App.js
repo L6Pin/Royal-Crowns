@@ -7,7 +7,7 @@ import FindMember from './sections/findMember';
 import Form from './sections/form';
 import Teams from './sections/teams';
 import FoundMember from './sections/foundMember';
-
+import Clubs from './sections/clubs';
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
         <Route path='/teams' component={Teams} />
         <Route path='/findMember' exact component={FindMember} />
         <Route path='/findMember/:id' component={FoundMember} />
+        <Route path='/clubs' component={Clubs} />
         </Switch>
 
     </Router>

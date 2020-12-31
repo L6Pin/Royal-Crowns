@@ -23,6 +23,7 @@ a {
           justify-content: space-between;
   padding: 1.25rem;
   width: 100vw;
+  z-index: 2;
 }
 
 .nav .logo {
@@ -33,7 +34,7 @@ a {
       -ms-flex-align: end;
           align-items: flex-end;
   position: relative;
-  z-index: 3;
+  z-index: 4;
 }
 
 .nav .logo .hide {
@@ -58,7 +59,7 @@ a {
 
 .nav .menuBtn {
   position: relative;
-  z-index: 3;
+  z-index: 4;
   margin-top: .5rem;
 }
 
@@ -106,7 +107,7 @@ a {
   left: -100%;
   width: 100vw;
   height: 100vh;
-  z-index: 2;
+  z-index: 3;
 }
 
 .nav .menu a {
@@ -526,5 +527,82 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.sideMemberInfo .row .rowSection img {
+  padding-bottom: .5rem;
+}
+
+.clubs {
+  background: -webkit-gradient(linear, left top, left bottom, from(#55185D), to(#290849));
+  background: linear-gradient(180deg, #55185D 0%, #290849 100%);
+}
+
+.clubs .title, .clubs .subtitle {
+  padding: 0 20px;
+}
+
+.clubs .title {
+  font-family: 'Playfair Display SC', serif;
+  color: #FFD524;
+  padding-top: 30%;
+  font-size: 1.81rem;
+  padding-bottom: 20px;
+}
+
+.clubs .subtitle {
+  font-family: 'Poppins', sans-serif;
+  color: #FFD524;
+  font-weight: 300;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+.clubs .af {
+  background: url("../img/clubs_af.jpg");
+}
+
+.clubs .athletics {
+  background: url("../img/clubs_athletics.jpg");
+}
+
+.clubs .soccer {
+  background: url("../img/clubs_soccer.jpg");
+}
+
+.clubs .baseball {
+  background: url("../img/clubs_baseball.jpg");
+}
+
+.clubs .clubPoster {
+  background-size: cover;
+  position: relative;
+  background-color: red;
+  height: 360px;
+  width: 100%;
+  background-position: 40% 0;
+}
+
+.clubs .clubPoster p {
+  position: absolute;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFD524;
+  bottom: 2%;
+  left: 2%;
+  font-size: 2rem;
+  line-height: 48px;
+  width: 50%;
+  z-index: 1;
+}
+
+.clubs .clubPoster .gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-11.43%, #55185D), color-stop(49.86%, rgba(0, 0, 0, 0)));
+  background: linear-gradient(0deg, #55185D -11.43%, rgba(0, 0, 0, 0) 49.86%);
+  z-index: 0;
 }
 /*# sourceMappingURL=style.css.map */
