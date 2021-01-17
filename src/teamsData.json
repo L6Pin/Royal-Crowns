@@ -1,42 +1,62 @@
 [
-    {   "id":"American-Football",
-        "teamId":"1",
-        "teamCover": "https://i.ibb.co/vz4p58F/landing-af.jpg",
-        "team": "AMERICAN FOOTBALL",
-        "teamSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-        "meetTheTeam1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-        "teamPicture": "https://i.ibb.co/sV25tR1/2319559-dsc-2009-ff-2.png",
-        "meetTheTeam2": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+    {   
+        "id":"1",
+        "naslov":"Miso pasta sa lososom i brokolijem",
+        "tekst":"Sastojci– 1 kašika dijon senfa– 1 kašičica soja sosa– 2 limete, 1 za sok i 1 po želji za serviranje (kriške)– 2 kašike ekstradevičanskog maslinovog ulja– 4-5 šolja Iceberg Salat Centar brokolija (iscepkanog na cvetiće)– 2 kašike bele miso paste– 1 kašičica sirovog organskog meda– prstohvat soli– 4 fileta lososa– 2 mlada luka (sitno seckana)– prstohvat susama-1 kašika umeboši sirćetaUputstvo za pripremu1. Zagrejte rernu na na 200 °C.2. Cvetove brokolija skuvajte na pari 5-10 minuta da omekšaju i odmah prelijte hladnom vodom. Začinite sa malo soli, kašikom maslinovog ulja, kašikom umeboši sirćeta i pospite susamom.3. U drugoj posudi pomešajte senf, miso, med, soja sos, sok od 1 limete i 1 kašiku maslinovog ulja, te mešajte dok se svi sastojci ne sjedine.4. Dobijenom glazurom premažite filete lososa, koje ste prethodno osušili papirnim ubrusima i odstranili im kožu. Losos ostavite da odstoji u glazuri oko 30 minuta.5. Filete lososa poslažite na sredinu tepsije, a oko njih stavite brokoli. Pecite 10 minuta, dok losos ne poprimi svetlozlatnu boju.6. Losos prelijte preostalom glazurom, okrenite brokoli na drugu stranu, pa pecite još 2 do 4 minuta.7. Izvadite losos i brokoli, te preko njih pospite sitno seckan mladi luk.8. Poslužite uz kriške limete i uživajte",
+        "slika":"https://www.klubzdravihnavika.com/wp-content/uploads/2020/12/DSC_0836-2.jpg"
     },
-    {
-        "id":"Athletics",
-        "teamId":"2",
-        "teamCover": "https://i.ibb.co/2nTQCrZ/Joshua-Cheptegei-Ath-Wrap-200814-G-1050x580.jpg",
-        "team": "ATHLETICS",
-        "teamSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-        "meetTheTeam1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-        "teamPicture": "https://i.ibb.co/sV25tR1/2319559-dsc-2009-ff-2.png",
-        "meetTheTeam2": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+    {   
+        "id":"2",
+        "naslov":"Mafini sa čokoladom i bundevom",
+        "tekst":"Sastojci(za čia jaje)-2 kašičice mlevenih čia semenki-3 kašike vodeSastojci(vlažni)-1 šolja pirea od Iceberg Salat Centar bundeve (omekšajte bundevu na pari, te je izblendirajte)-¼ šolje kokosovog ulja, rastopljenog-½ šolje agave sirupa-1 kašičica ekstrakta vanileSastojci(suvi)-1 ½ šolja ovsenog brašna-½ šolje sirovog kakao praha-½ šolje kokosovog šećera-2 kašičice mešavine začina za medenjake-1 kašičica praška za pecivo-½ kašičice sode bikarbone-½ kašičice soli-⅔ šolje komadića crne veganske čokoladeSastojci(za dekoraciju)-1 kašičica kokosovog proteina-1 kašičica pirea od bundeveUpustvo za pripremu1. U posudi umutite mlevene čia semenke i vodu, te mešajte dok se ne sjedine. Dobijenu smesu odložite sa strane, nekoliko minuta, kako bi se zgusnula.2. U istu posudu dodajte sve vlažne sastojke i mešajte dok smesa ne postane glatka.3. Dodajte sve suve sastojke, osim komadića crne veganske čokolade i mešajte dok ne dobijete homogenu smesu.4. U dobijeno testo umešajte ⅓ šolje komadića crne veganske čokolade.5. Kalup za mafine obložite papirnim korpicama, sipajte testo u svaku od njih do dve trećine zapremine, te dodajte preostale komadiće crne veganske čokolade.6. Pecite mafine u rerni na 180 °C oko 20-25 minuta.7. Nakon što mafini budu gotovi, izvadite svaki iz kalupa, te ih ostavite da se ohlade.8. Po želji pospite mafine proteinom kokosa, ukrasite kašičicom pirea od bundeve i uživajte",
+        "slika":"https://www.klubzdravihnavika.com/wp-content/uploads/2020/12/DSC_0962.jpg"
     },
-    {
-        "id":"Soccer",
-        "teamId":"3",
-        "teamCover": "https://i.ibb.co/DpD5KPq/shutterstock-1051589441.jpg",
-        "team": "SOCCER",
-        "teamSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-        "meetTheTeam1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-        "teamPicture": "https://i.ibb.co/sV25tR1/2319559-dsc-2009-ff-2.png",
-        "meetTheTeam2": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+    {   
+        "id":"3",
+        "naslov":"Savršena kaserola od boranije i integralnog pirinča",
+        "tekst":"Sastojci(za kaserolu)-1-2 kašike maslinovog ulja-½ glavice crnog luka, srednje veličine (sitno seckane)-¾ šolje Iceberg Salat Centra celera u štapu (sitno seckanog)-3 čena belog luka (sitno seckana)-½ kašičice sveže majčine dušice (sitno seckane)-prstohvat bibera-prstohvat soli-2 šolje sveže boranije-1 šolja integralnog pirinča-1 ½ šolja bujona od povrća-350 g mešanih pečuraka po izboruSastojci(za dekoraciju)-sveži listovi peršuna ili majčine dušiceUputstvo za pripremu1. Dinstajte crni luk i celer na maslinovom ulju oko 3-4 minuta dok ne omekšaju. Zatim dodajte pečurke, beli luk, majčinu dušicu, biber i so.2. Dodajte boraniju i integralni pirinač. Sklonite sa ringle, pa dodajte bujon od povrća i mešajte dok se sastojci ne sjedine.3. Prebacite dobijenu smesu u vatrostalnu posudu za pečenje. Pecite 45-55 minuta, dok tečnost ne ispari i pirinač ne omekša.4. Ostavite da odstoji oko 10 minuta pre služenja. Ukrasite svežim peršunom ili majčinom dušicom.5. Poslužite i uživajte",
+        "slika":"https://www.klubzdravihnavika.com/wp-content/uploads/2020/12/DSC_0641.jpg"
+    },   
+    {   
+        "id":"4",
+        "naslov":"Čorba od kukuruza",
+        "tekst":"Sastojci– 3 čena belog luka– 1 glavica crnog luka– 2 kašike ulja– ½ šolje Iceberg Salat Centar rendane šargarepe– 1 krompir– 1 komad korena celera– 2 šolje kukuruza– 1 l bujona ili vode– 1 šolja kokosovog mleka– So, biber, peršun, kuminUputstvo za pripremu1. Iseckajte i propržite crni i beli luk (na malo ulja).2. Dodajte rendanu šargarepu, iseckani krompir, celer i kukuruz. Kratko pržite, te nalijte bujon.3. Kuvajte oko 20 minuta.4. Umutite štapnim mikserom, dodajte kokosovo mleko i začine.5. Kuvajte još 5 minuta i poslužite toplo.",
+        "slika":"https://www.klubzdravihnavika.com/wp-content/uploads/2020/12/NG-corba1.jpg"
     },
-    {
-        "id":"Baseball",
-        "teamId":"4",
-        "teamCover": "https://i.ibb.co/M5MBgrQ/rs-600x600-200624045853-600-Yankee-MLB-Games-ch-062420.jpg",
-        "team": "BASEBALL",
-        "teamSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-        "meetTheTeam1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-        "teamPicture": "https://i.ibb.co/sV25tR1/2319559-dsc-2009-ff-2.png",
-        "meetTheTeam2": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+    {   
+        "id":"5",
+        "naslov":"Avokado kreacija",
+        "tekst":"Sastojci za namaz– 1 zreli avocado,– sok ½ limete,– 1 kašika maslinovog ulja,– 1 čen belog luka,– so, biber i peršun po ukusu.– Avokado izgnječite, dodajte ostale sastojke, sve lepo izmešajte i poslužite uz tost ili naćose.Avokado kreacijaTrikovi1. Kada birate avokado, blago ga pritisnite prstima. Ako je mekan toliko da prsti ostavljaju trag, ali opet dovoljno čvrst da se kora pod prstima ne raspada, takav avokado je odmah spreman za upotrebu.2. Previše mekan avokado je prezreo i ne treba ga jesti.3. Ukoliko je kupljeni avokado jako čvrst, stavite ga u papirnu kesu ili pored jabuka i proces sazrevanja će se ubrzati.4. Da bi avokado zadržao lepu zelenu boju, čim ga otvorite odmah da premažite limunovim sokom.5. Sečenje zrelog avokada je jako jednostavno. Nožem napravite krug oko voćke, zatim zavrtite obe polovine medju rukama i razdvojite ih. Meso avokada vadite kašikom. Ako je avokado lepo sazreo, ostaće samo kora.6. Za lepši izgled avokada, pre vađenja kašikom iz kore možete ga izrezati na linije ili kockice.7. Ne bacajte koru avokada, može poslužiti kao super činijica za posluženje.",
+        "slika":"https://www.klubzdravihnavika.com/wp-content/uploads/2020/10/Avokcado-5-1440x930.jpg"
+    },
+    {   
+        "id":"6",
+        "naslov":"Puding od bundeve",
+        "tekst":"Sastojci-2 kašike kokosovog šećera-3 kašike kukuruznog brašna-1 ½ šolja nezaslađenog bademovog mleka-1 ¼ šolje pirea od Iceberg Salat Centar bundeve (omekšajte bundevu na pari, te je blendirajte.)-1 ½ kašičice začina od bundeve-1 kašičica ekstrakta vanileUputstvo za pripremu1. U šerpu sipajte kokosov šećer i kukuruzno brašno, te mešajte dok se ne sjedine. Zatim dodajte bademovo mleko i pire od bundeve, te sve dobro promešajte.2. Kuvajte na srednje jakoj temperaturi oko 5-7 minuta, uz stalno mešanje kako se smesa ne bi previše zgusnula.3. Nakon toga, sklonite šerpu sa šporeta i dodajte ekstrakt vanile i začin od bundeve.4. Sipajte puding u staklene posude i ostavite sa strane da se malo ohladi.5. Poslužite i uživajte.",
+        "slika":"https://www.klubzdravihnavika.com/wp-content/uploads/2020/12/tw2.jpg"
+    },
+    {   
+        "id":"7",
+        "naslov":"Tofu sa medom",
+        "tekst":"Sastojci(Za tofu)-200 g tofu sir-2 kašike kukuruznog skroba-½ kašičice soli-Malo biberaSastojci(za sos)-3 kašike meda-2 čena belog luka-3 kašike soja sosa-1 kašika limunovog soka-125 ml vode-1 kašika kukuruznog skroba-2 kašike susamaSastojci(za serviranje)–Iceberg Salat Centar matovilac–Iceberg Salat Centar rendana šargarepa-Skuvani pirinačUpustvo za pripremu1.Sir isecite na kockice i pomešajte ga sa kukuruznim skrobom, soli i biberom.2.Stavite u vatrostalnu činiju i pecite 15 minuta na 180 stepeni.3.Skuvajte pirinač.4.U tiganj stavite sve sastojke za sos (osim susama), izmešajte i krčkajte na umerenoj vatri dok se ne zgusne i ne dobije lepljivu strukturu. Na kraju pospite susamom.5.Pečeni tofu pomešajte sa sosom.6.Poslužite uz svežu salatu i pirinač.",
+        "slika":"https://www.klubzdravihnavika.com/wp-content/uploads/2020/11/Tofu-sa-medom.jpg"
+    },
+    {   
+        "id":"8",
+        "naslov":"Veganski kolač od limuna",
+        "tekst":"Sastojci(za fil)-1 šolja sirovih indijskih oraha-1 šolja kokosovog šlag-krema-2 kašike kukuruznog brašna-½ šolje soka od Iceberg Salat Centar limuna-1 kašika limunove kore, rendane-¼ šolje agave sirupa-prstohvat soliSastojci(za koru)-1 šolja ovsenih pahuljica-1 šolja badema-prstohvat soli-2 kašike kokosovog šećera-1 kašika javorovog sirupa-4-5 kašika kokosovog ulja, rastopljenogSastojci(za dekoraciju)-2 kašike kokosovog proteina-desetak krišaka limunaUpustvo za pripremu1. Stavite sirove indijske orahe u posudu i prelijte ih vrućom vodom. Ostavite ih da stoje oko 1 sat. Zatim ih temeljno ocedite.2. Ovsene pahuljice, bademe, so i kokosov šećer pomešajte, stavite ih u blender i blendirajte dok ne dobijete homogenu smesu.3. Dobijenu smesu prebacite u zasebnu posudu, te dodajte javorov sirup i istopljeno kokosovo ulje. Meš",
+        "slika":"https://www.klubzdravihnavika.com/wp-content/uploads/2020/11/tw4.jpg"
+    },
+    {   
+        "id":"9",
+        "naslov":"Superhrana i zdravi sokovi",
+        "tekst":"Sastojci– 1 jabuka– Sok 1 limuna– 4 štapa celera– 1 kašičica zlatne make– 1 kašika meda– 1/3 kašičice cimeta– 2 šolje vodeUpustvo za pripremu1.Sve sastojke stavite u blender i mutite dok ne dobijete ujednačen napitak.2.Poslužite odmah ili čuvajte u zatvorenoj flaši u frižideru do 2 dana.",
+        "slika":"https://www.klubzdravihnavika.com/wp-content/uploads/2020/11/Smuti-celer-limun-jabuka1.jpg"
+    },
+    {   
+        "id":"10",
+        "naslov":"Kako formirati jestiv lisica obrok",
+        "tekst":"Sastojci za namaz– 1.5 šolja pasterizovane leblebije– 1 šolja Iceberg Salat Centar pečene bundeve– 1 kašika soka od Iceberg Salat Centar limuna– 1 čen belog luka– 1/3 kašičice soli– 3 kašike maslinovog ulja– Biber po ukusu– 1 kašika tahinia – opcionoUpustvo za pripremu1. U blender stavite sve sastojke osim bundeve.2. Mutite dok se ne dobije ujednačena kremasta smesa.3. Izvadite deo da ostane za sve te delove sendviča, a u ostatak dodati bundevu i mutite da se ujednači.4. Čuvajte kao namaz u frižideru u zatvorenoj teglici (može da stoji do 3 dana).",
+        "slika":"https://www.klubzdravihnavika.com/wp-content/uploads/2020/11/Lisica-6-1920x1240.jpg"
     }
-
 ]
