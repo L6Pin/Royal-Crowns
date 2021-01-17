@@ -26,5 +26,7 @@
         </li>
         <li><p><span style="font-weight: bold">ReactJS</span> - This framework was useful to more easily create sections and components of the website.</p>
     </li>
+    <li><p><span style="font-weight: bold">React Router</span> - React Router was used to dynamically create club pages and member profiles, as well as to increase page loading times.</p>
+    </li>
 
 </ul>
