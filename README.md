@@ -1,7 +1,7 @@
 <h1>Royal Crowns</h1>
 <h2>Project Overview</h2>
 <p>The project is a reimagination of the local sports club "Royal Crowns" <a href="http://kraljevskekrune.weebly.com/">website</a>.
-   The reason for there not being a tablet and desktop version is that I wanted to learn React Router, and after doing so,
+   The reason for there not being a tablet and desktop version is that I wanted to learn React Router and implement a search by name function in the "Find a member" page. After doing so,
     I deemed it not to be important to complete the rest of the website as this is just a learning project.
 </p>
 <br/>
@@ -25,6 +25,8 @@
     </li>
         </li>
         <li><p><span style="font-weight: bold">ReactJS</span> - This framework was useful to more easily create sections and components of the website.</p>
+    </li>
+    <li><p><span style="font-weight: bold">React Router</span> - React Router was used to dynamically create club pages and member profiles, as well as to increase page loading times.</p>
     </li>
 
 </ul>
